@@ -9,4 +9,7 @@ import org.junit.runner.RunWith;
 @CucumberOptions(features = "src/test/java/feature",plugin = "json:target/jsonReport/cucumber-report.json",glue={"stepDef"})
 public class TestRunner {
 //    tags = "@deletePlace"
+    public void runner(){
+        System.out.println("Deeraj kkk");
+    }
 }
